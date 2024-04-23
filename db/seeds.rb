@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Product.create!(name: 'T-shirt', price: 15.00, description: 'UofM T-shirt')
+Product.create!(name: 'Cap', price: 6.00, description: 'UofM Cap')
+Product.create!(name: 'Headband', price: 4.00, description: 'Tiger ears headband')
